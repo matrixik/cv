@@ -29,6 +29,8 @@
 \mobile{791 673 189}
 % optional
 \email{dobroslaw.zybort@gmail.com}
+% optional
+\extrainfo{https://bitbucket.org/matrixik/}
 
 % Wyrażenie zgody na przetwarzanie danych osobowych
 \fancypagestyle{zgoda}{%
@@ -494,7 +496,8 @@ status open
 
 \end_inset
 
-Tworzenie botów oraz web scraper-ów, wycieczki piesze, serial 
+Tworzenie botów oraz web scraper-ów, automatyzacja, wycieczki piesze, serial
+ 
 \begin_inset Quotes pld
 \end_inset
 
