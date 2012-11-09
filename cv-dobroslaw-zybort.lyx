@@ -30,7 +30,7 @@
 % optional
 \email{dobroslaw.zybort@gmail.com}
 % optional
-\extrainfo{https://bitbucket.org/matrixik/}
+\homepage{https://bitbucket.org/matrixik/}
 
 % Wyrażenie zgody na przetwarzanie danych osobowych
 \fancypagestyle{zgoda}{%
@@ -63,7 +63,6 @@
   \parbox[t]{\maincolumnwidth}{\strut\sectionstyle{#1}}%
   \par\nobreak\addvspace{1ex}\@afterheading}% to avoid a pagebreak after the heading
 \end_preamble
-\options intoc,bibliography=totoc,index=totoc,BCOR10mm,captions=tableheading,titlepage,fleqn
 \use_default_options true
 \begin_modules
 customHeadersFooters
@@ -89,7 +88,7 @@ customHeadersFooters
 \bibtex_command bibtex8
 \index_command default
 \float_placement h
-\paperfontsize 12
+\paperfontsize 11
 \spacing onehalf
 \use_hyperref true
 \pdf_author "Dobrosław Żybort"
@@ -311,33 +310,7 @@ Bazy Danych i Systemy Ekspertowe
 \end_layout
 
 \begin_layout Section
-Języki
-\end_layout
-
-\begin_layout Language
-Polski
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Natywny
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-
+Język obcy
 \end_layout
 
 \begin_layout Language
@@ -367,11 +340,11 @@ Na poziomie umożliwiającym łatwe zapoznawanie się z dokumentacją techniczn�
 \end_layout
 
 \begin_layout Section
-Znajomość
+Umiejętności
 \end_layout
 
 \begin_layout Computer
-Systemów
+Systemy
 \begin_inset ERT
 status open
 
@@ -393,7 +366,7 @@ status open
 
 \end_inset
 
-Edytorów
+Edytory
 \begin_inset ERT
 status open
 
@@ -404,11 +377,11 @@ status open
 
 \end_inset
 
-Microsoft Word, LyX - edytor WYSIWYM (LaTeX)
+Microsoft Office, LyX - edytor WYSIWYM (LaTeX)
 \end_layout
 
 \begin_layout Computer
-Języków
+Języki
 \begin_inset ERT
 status open
 
@@ -445,7 +418,7 @@ HTML, CSS
 \end_layout
 
 \begin_layout Computer
-Baz danych
+Bazy danych
 \begin_inset ERT
 status open
 
@@ -456,7 +429,7 @@ status open
 
 \end_inset
 
-MySQL, SQL Server, Oracle
+SQL Server, Oracle
 \begin_inset ERT
 status open
 
@@ -482,6 +455,25 @@ status open
 \end_layout
 
 \begin_layout Section
+Dodatkowe umiejętności
+\end_layout
+
+\begin_layout Item
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Prawo jazdy kat.
+ B
+\end_layout
+
+\begin_layout Section
 Zainteresowania
 \end_layout
 
@@ -496,8 +488,7 @@ status open
 
 \end_inset
 
-Tworzenie botów oraz web scraper-ów, automatyzacja, wycieczki piesze, serial
- 
+Tworzenie botów oraz web scraper-ów, wycieczki piesze, serial 
 \begin_inset Quotes pld
 \end_inset
 
