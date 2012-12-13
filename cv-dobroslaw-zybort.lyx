@@ -306,15 +306,240 @@ status open
 
 \end_inset
 
+
+\series bold
 Bazy Danych i Systemy Ekspertowe
 \end_layout
 
 \begin_layout Section
-Język obcy
+Doświadczenie zawodowe
+\end_layout
+
+\begin_layout Entry
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+small
+\end_layout
+
+\end_inset
+
+2012-07 -- 2012-10
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Wordpress autoposter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+projekt prywatny
+\lang polish
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+napisany w języku Python bot
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+kod dostępny na życzenie
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+small
+\end_layout
+
+\end_inset
+
+2012-01
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Studio Tam-Tam
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Łódź
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Polska
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+praktyka zawodowa w zakresie obsługi informatycznej firmy
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+small
+\end_layout
+
+\end_inset
+
+2009 -- obecnie
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Tworzenie otwarto-źródłowych projektów
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+https://bitbucket.org/matrixik/
+\lang polish
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+głównie napisane w języku Python boty oraz programy użytkowe
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Umiejętności zawodowe
 \end_layout
 
 \begin_layout Language
-Angielski
+Język angielski
 \begin_inset ERT
 status open
 
@@ -336,52 +561,11 @@ status open
 
 \end_inset
 
-Na poziomie umożliwiającym łatwe zapoznawanie się z dokumentacją techniczną.
+Znajomość terminologii technicznej
 \end_layout
 
-\begin_layout Section
-Umiejętności
-\end_layout
-
-\begin_layout Computer
-Systemy
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Windows XP/7, Linux Debian
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Edytory
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}{
-\end_layout
-
-\end_inset
-
-Microsoft Office, LyX - edytor WYSIWYM (LaTeX)
-\end_layout
-
-\begin_layout Computer
-Języki
+\begin_layout Language
+Języki prog.
 \begin_inset ERT
 status open
 
@@ -403,21 +587,10 @@ status open
 
 \end_inset
 
-Web
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-}{
 \end_layout
 
-\end_inset
-
-HTML, CSS
-\end_layout
-
-\begin_layout Computer
+\begin_layout Language
 Bazy danych
 \begin_inset ERT
 status open
@@ -441,6 +614,73 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Language
+Web
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+HTML, CSS
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Language
+Systemy
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Windows XP/7, Linux Debian
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Language
+Edytory
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Microsoft Office, LyX - edytor WYSIWYM (LaTeX)
 \begin_inset ERT
 status open
 
