@@ -4,9 +4,6 @@
 \begin_header
 \textclass moderncv
 \begin_preamble
-% adjust the page margins
-% \usepackage[scale=0.75]{geometry}
-
 % required
 \moderncvtheme[blue]{classic}
 % possible themes are "classic" and "casual"
@@ -55,10 +52,10 @@
 
 % Wygląd poziomej linii
 \renewcommand*{\section}[1]{%
-  \par\addvspace{2.5ex}%
+  \par\addvspace{1.5ex}%
   \phantomsection{}% reset the anchor for hyperrefs
   \addcontentsline{toc}{section}{#1}%
-  \parbox[t]{\hintscolumnwidth}{\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{\hintscolumnwidth}{0.45ex}}}%
+  \parbox[t]{\hintscolumnwidth}{\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{\hintscolumnwidth}{0.35ex}}}%
   \hspace{\separatorcolumnwidth}%
   \parbox[t]{\maincolumnwidth}{\strut\sectionstyle{#1}}%
   \par\nobreak\addvspace{1ex}\@afterheading}% to avoid a pagebreak after the heading
@@ -174,10 +171,10 @@ customHeadersFooters
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 1.7cm
-\topmargin 2cm
-\rightmargin 1.7cm
-\bottommargin 3cm
+\leftmargin 7page%
+\topmargin 1.5cm
+\rightmargin 7page%
+\bottommargin 2cm
 \footskip 1cm
 \secnumdepth 2
 \tocdepth 2
@@ -207,6 +204,13 @@ status open
 maketitle
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.7cm
 \end_inset
 
 
@@ -328,6 +332,77 @@ small
 
 \end_inset
 
+2012-11 -- 2013-01
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+PastebinGo
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+open source
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Strona typu pastebin napisana w języku Go
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+https://bitbucket.org/matrixik/pastebingo/
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+small
+\end_layout
+
+\end_inset
+
 2012-07 -- 2012-10
 \begin_inset ERT
 status open
@@ -350,10 +425,7 @@ status open
 
 \end_inset
 
-
 projekt prywatny
-\lang polish
-
 \begin_inset ERT
 status open
 
@@ -375,7 +447,11 @@ status open
 
 \end_inset
 
-kod dostępny na życzenie
+kod dostępny na
+\begin_inset space ~
+\end_inset
+
+życzenie
 \begin_inset ERT
 status open
 
@@ -496,9 +572,6 @@ status open
 \end_inset
 
 
-https://bitbucket.org/matrixik/
-\lang polish
-
 \begin_inset ERT
 status open
 
@@ -520,7 +593,7 @@ status open
 
 \end_inset
 
-
+https://bitbucket.org/matrixik/
 \begin_inset ERT
 status open
 
@@ -576,7 +649,7 @@ status open
 
 \end_inset
 
-Python, C#
+Python, Go, C#
 \begin_inset ERT
 status open
 
@@ -728,15 +801,7 @@ status open
 
 \end_inset
 
-Tworzenie botów oraz web scraper-ów, wycieczki piesze, serial 
-\begin_inset Quotes pld
-\end_inset
-
-Gwiezdne wrota
-\begin_inset Quotes prd
-\end_inset
-
-, manga
+Tworzenie botów oraz web scraper-ów, wycieczki piesze, manga
 \end_layout
 
 \begin_layout Standard
