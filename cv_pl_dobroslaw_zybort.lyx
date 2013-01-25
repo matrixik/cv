@@ -332,6 +332,77 @@ small
 
 \end_inset
 
+2012-12 -- obecnie
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+open source
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+Biblioteki ułatwiające pisanie programów w języku Go
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+https://bitbucket.org/gosimple/
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+small
+\end_layout
+
+\end_inset
+
 2012-11 -- 2013-01
 \begin_inset ERT
 status open
@@ -611,7 +682,7 @@ status open
 Umiejętności zawodowe
 \end_layout
 
-\begin_layout Language
+\begin_layout ItemWithComment
 Język angielski
 \begin_inset ERT
 status open
@@ -637,7 +708,7 @@ status open
 Znajomość terminologii technicznej
 \end_layout
 
-\begin_layout Language
+\begin_layout ItemWithComment
 Języki prog.
 \begin_inset ERT
 status open
@@ -663,7 +734,7 @@ status open
 
 \end_layout
 
-\begin_layout Language
+\begin_layout ItemWithComment
 Bazy danych
 \begin_inset ERT
 status open
@@ -689,7 +760,7 @@ status open
 
 \end_layout
 
-\begin_layout Language
+\begin_layout ItemWithComment
 Web
 \begin_inset ERT
 status open
@@ -715,7 +786,7 @@ status open
 
 \end_layout
 
-\begin_layout Language
+\begin_layout ItemWithComment
 Systemy
 \begin_inset ERT
 status open
@@ -741,7 +812,7 @@ status open
 
 \end_layout
 
-\begin_layout Language
+\begin_layout ItemWithComment
 Edytory
 \begin_inset ERT
 status open
