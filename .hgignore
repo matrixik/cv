@@ -1,3 +1,7 @@
-syntax: regexp
-^Fonts
-^temp
+syntax: glob
+## Special files
+*~
+[_]*
+
+## Temporary files
+*.gz
