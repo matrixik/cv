@@ -1,7 +1,0 @@
-syntax: glob
-## Special files
-*~
-[_]*
-
-## Temporary files
-*.gz
