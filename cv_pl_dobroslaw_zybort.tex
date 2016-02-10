@@ -1,5 +1,5 @@
-%% start of file `cv_pl_dobroslaw_zybort2.tex'.
-%% Copyright 2013 Dobrosław Żybort (dobroslaw.zybort@gmail.com).
+%% start of file `cv_pl_dobroslaw_zybort.tex'.
+%% Copyright 2013-2016 Dobrosław Żybort (dobroslaw.zybort@gmail.com).
 
 
 \documentclass[11pt,a4paper,sans,polish]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
@@ -46,19 +46,19 @@
 
 % adjust the page margins
 % \usepackage[scale=0.75]{geometry}
-\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{2.7cm}           % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \firstname{Dobrosław}
 \familyname{Żybort}
 \title{Curriculum Vit\ae{}}
-\address{Broniewskiego 26a/m.12}{93-142 Łódź}{Polska}
+% \address{Broniewskiego 26a/m.12}{93-142 Łódź}{Polska}
 \mobile{791 673 189}
 % \phone{+2~(345)~678~901}
 % \fax{+3~(456)~789~012}
 \email{dobroslaw.zybort@gmail.com}
-\homepage{https://bitbucket.org/matrixik/}
+\homepage{github.com/matrixik}
 % \extrainfo{additional information}
 % \photo[64pt][0.4pt]{picture}               % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 % \quote{Some quote}
@@ -73,6 +73,8 @@
 
 %% Styl
 
+\urlstyle{same}
+
 % Wielkość czcionki
 % \renewcommand*{\namefont}{\fontsize{34}{36}\mdseries\upshape}
 % \renewcommand*{\titlefont}{\LARGE\mdseries\slshape}
@@ -83,15 +85,16 @@
 % \renewcommand*{\hintfont}{}
 
 \renewcommand*{\sectionfont}{\fontsize{14}{16} \mdseries\upshape}
+\renewcommand*{\subsectionfont}{\fontsize{14}{16} \mdseries\upshape}
 
 % Wygląd poziomej linii
 %\renewcommand*{\section}[1]{%
 %  \par\addvspace{1.5ex}%
 %  \phantomsection{}% reset the anchor for hyperrefs
 %  \addcontentsline{toc}{section}{#1}%
-%  \parbox[t]{\hintscolumnwidth}{\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{\hintscolumnwidth}{0.35ex}}}%
+%  \parbox[t]{\hintscolumnwidth}{\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{\hintscolumnwidth}{0.60ex}}}%
 %  \hspace{\separatorcolumnwidth}%
-%  \parbox[t]{\maincolumnwidth}{\strut\sectionstyle{#1}}%
+%  \parbox[t]{\maincolumnwidth}{\strut\sectionstyle{#1}}}%
 %  \par\nobreak\addvspace{1ex}\@afterheading}% to avoid a pagebreak after the heading
 
 %----------------------------------------------------------------------------------
@@ -101,87 +104,101 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\vspace{-0.7cm}
+\vspace{-0.8cm}
+
+
+\section{Doświadczenie zawodowe}
+
+\cventry{\small2015-10 -- obecnie}
+	{Ericpol Sp. z o.o.}{}{}
+	{Software Developer}
+	{Trouble Reports Work Group (C++)}
+
+\cventry{\small2015-01 -- 2015-10}
+	{Ericpol Sp. z o.o.}{}{}
+	{Scrum Master / Software Developer}
+	{Flow team, usuwanie przeszkód programistycznych, Trouble Reports Work Group (C++)}
+
+\cventry{\small2013-07 -- 2014-12}
+	{Ericpol Sp. z o.o.}{}{}
+	{Scrum Master / Junior Software Developer}
+	{Flow team, usuwanie przeszkód programistycznych (C++)}
+
+\cventry{\small2008-07 -- 2009-01}
+	{Tekka Sp. z o.o.}{}{}
+	{Tester oprogramowania}
+	{Testowanie oraz tworzenie dokumentacji dla systemu do zarządzania
+	zleceniami w firmie logistycznej}
+
+
+\section{Projekty prywatne}
+
+\cventry{\small2012-12 -- obecnie}
+	{slug, oauth2, ListDict i inne}{open source}{}
+	{\url{https://github.com/gosimple}}
+	{Biblioteki napisane w języku programowania Go}
+
+\cventry{\small2012-07 -- 2015-11}
+	{Wordpress autoposter}{projekt prywatny}{}
+	{}
+	{Web scraper oraz bot automatyzujący wysyłanie postów na platformę Wordpress,
+		administracja 14 blogów i 4 VPS-ów, tech: Go, Python, MySQL, SQLite, Amazon S3}
+
+\cventry{\small2009 -- obecnie}
+	{Betfair Watcher, PastebinGo i inne}{open source}{}
+	{\url{https://bitbucket.org/matrixik}}
+	{Napisane w języku Python i Go boty, strony internetowe oraz programy użytkowe}
 
 
 \section{Wykształcenie}
 
-\cventry{\small2005 -- obecnie}{Wydział Elektrotechniki, Elektroniki, Informatyki
+\cventry{\small2005 -- 2013}{Wydział Elektrotechniki, Elektroniki, Informatyki
 i Automatyki}{Politechnika Łódzka}{Łódź}{Polska}{}
 \vspace{-0.2cm}
 
 \cvitem{Specjalność}{\textbf{Bazy Danych i Systemy Ekspertowe}}
 
 
-\section{Doświadczenie}
-
-\cventry{\small2012-12 -- obecnie}
-	{oauth2, ListDict, conf i inne}{open source}{}
-	{https://bitbucket.org/gosimple/}
-	{Biblioteki napisane w języku programowania Go}
-
-\cventry{\small2012-07 -- obecnie}
-	{Wordpress autoposter}{projekt prywatny}{}
-	{kod dostępny na~życzenie}
-	{Napisany w języku Python bot automatyzujący wysyłanie postów na platformę Wordpress}
-
-\cventry{\small2012-11 -- 2013-01}
-	{PastebinGo}{open source}{}
-	{https://bitbucket.org/matrixik/pastebingo/}
-	{Strona typu pastebin napisana w języku Go}
-
-\cventry{\small2012-01}
-	{Studio Tam-Tam}{Łódź}{Polska}
-	{}
-	{Praktyka zawodowa w zakresie obsługi informatycznej firmy}
-
-\cventry{\small2009 -- obecnie}
-	{Betfair Watcher, Engine Checker i inne}{open source}{}
-	{https://bitbucket.org/matrixik/}
-	{Głównie napisane w języku Python i Go boty oraz programy użytkowe}
-
-\cventry{\small2008-07 -- 2009-01}
-	{Tekka Sp. z o.o.}{Łódź}{Polska}
-	{Tester oprogramowania}
-	{Testowanie oraz tworzenie dokumentacji dla systemu do zarządzania
-	zleceniami w firmie logistycznej}
-
-
 \section{Umiejętności}
 
 \cvitemwithcomment
 	{Język angielski}
-	{Dobry}{Znajomość terminologii technicznej}
+	{Bardzo dobry}{Znajomość terminologii technicznej}
 
 \cvitemwithcomment
 	{Języki prog.}
-	{Python, Go (młody, dynamicznie rozwijający się język programowania)}{}
+	{Go, Python, C++}{gorilla, goquery, python wordpress xmlrpc, PIL, requests, tinyxml2}
 
 \cvitemwithcomment
 	{Bazy danych}
-	{SQL Server, Oracle}{}
+	{SQLite, MySQL}{}
 
 \cvitemwithcomment
 	{Web}
 	{HTML, CSS}{}
 
 \cvitemwithcomment
-	{Systemy}
-	{Windows XP/7, Linux Debian}{}
-
-\cvitemwithcomment
-	{Edytory}
-	{Microsoft Office, LyX - edytor WYSIWYM (\LaTeX{})}{}
+	{Inne}
+	{Linux Debian, Gerrit, RSARTE \small{(Eclipse + UML)}, LiteIDE, Git, ClearCase, Scrum, Amazon S3}{}
 
 
-\section{Dodatkowe umiejętności}
+\vspace{0.5cm}
 
-\cvitem{}{Prawo jazdy kat. B}{}
-
-
-\section{Zainteresowania}
-
-\cvitem{}{Tworzenie botów oraz web scraper-ów, wycieczki piesze, manga}{}
+\begin{cvcolumns}
+	\cvcolumn[0.7]{Zdolności i certyfikaty}{
+		\begin{itemize}
+			\item Zarządzenie 8 osobowym zespołem
+			\item Bezpośrednia współpraca z zagranicznym klientem
+			\item Professional Scrum Master I (PSM I)
+			\item Prawo jazdy kat. B
+		\end{itemize}}
+	\cvcolumn{Zainteresowania}{
+		\begin{itemize}
+			\item Ludzkie ciało
+			\item Technologie jutra
+			\item Wycieczki piesze
+		\end{itemize}}
+\end{cvcolumns}
 
 
 \thispagestyle{zgoda}
