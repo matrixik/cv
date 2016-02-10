@@ -1,2 +1,6 @@
 _*
+*.aux
+*.dvi
+*.log
+*.out
 
