@@ -6,7 +6,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[a4paper]{geometry}
-\geometry{verbose,tmargin=1.5cm,bmargin=2cm,lmargin=0.07\paperwidth,rmargin=0.07\paperwidth,footskip=1cm}
+\geometry{verbose,tmargin=1.0cm,bmargin=1.0cm,lmargin=0.07\paperwidth,rmargin=0.07\paperwidth,footskip=1cm}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -58,7 +58,9 @@
 % \phone{+2~(345)~678~901}
 % \fax{+3~(456)~789~012}
 \email{dobroslaw.zybort@gmail.com}
-\homepage{github.com/matrixik}
+%\homepage{github.com/matrixik}
+\social[linkedin]{dobroslaw-zybort}
+\social[github]{matrixik}
 % \extrainfo{additional information}
 % \photo[64pt][0.4pt]{picture}               % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 % \quote{Some quote}
@@ -75,7 +77,7 @@
 
 \urlstyle{same}
 
-% Wielkość czcionki
+% Font size
 % \renewcommand*{\namefont}{\fontsize{34}{36}\mdseries\upshape}
 % \renewcommand*{\titlefont}{\LARGE\mdseries\slshape}
 % \renewcommand*{\addressfont}{\small\mdseries\slshape}
@@ -104,12 +106,17 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\vspace{-0.8cm}
+\vspace{-1.2cm}
 
 
 \section{Professional experience}
 
-\cventry{\small2015-10 -- now}
+\cventry{\small2016-05 -- now}
+	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
+	{Development Engineer}
+	{FUJITSU Software ServerView Cloud Monitoring Manager: Ansible roles for MariaDB Galera cluster and HAProxy on RedHat Linux.}
+
+\cventry{\small2015-10 -- 2016-03}
 	{Ericpol Sp. z o.o.}{}{}
 	{Software Developer}
 	{Trouble Reports Work Group (C++)}
@@ -144,7 +151,7 @@
 	{Automatic web scraper and Wordpress poster,
 		administration of 14 blogs and 4 VPSes, tech: Go, Python, MySQL, SQLite, Amazon S3}
 
-\cventry{\small2009 -- now}
+\cventry{\small2009 -- 2014}
 	{Betfair Watcher, PastebinGo and other}{open source}{}
 	{\url{https://bitbucket.org/matrixik}}
 	{Written in Python and Go bots, web pages and utilities}
@@ -155,7 +162,7 @@
 \cventry{\small2005 -- 2013}{Faculty of Electrical, Electronic, Computer and Control Engineering}{Lodz University of Technology}{Łódź}{Poland}{}
 \vspace{-0.2cm}
 
-\cvitem{Specialty}{\textbf{Databases Systems and Expert Systems}}
+\cvitem{Specialty}{\textbf{Databases Systems and Expert Systems} - thesis not defended}
 
 
 \section{Skills}
@@ -165,20 +172,20 @@
 	{Very good}{}
 
 \cvitemwithcomment
-	{Programming languages}
+	{\small{Programming languages}}
 	{Go, Python, C++}{gorilla, goquery, python wordpress xmlrpc, PIL, requests, tinyxml2}
 
 \cvitemwithcomment
-	{Databases}
+	{\small{Databases}}
 	{SQLite, MySQL}{}
 
 \cvitemwithcomment
-	{Web}
+	{\small{Web}}
 	{HTML, CSS}{}
 
 \cvitemwithcomment
-	{Other}
-	{Linux Debian, Gerrit, Eclipse \small{+ UML}, PyCharm, LiteIDE, Git, ClearCase, Scrum, Amazon S3}{}
+	{\small{Other}}
+	{\small{Linux Debian/RedHat, Gerrit, Eclipse \small{+ UML}, Atom, LiteIDE, PyCharm, Git, Scrum, Amazon S3}}{}
 
 
 \vspace{0.5cm}
@@ -199,6 +206,6 @@
 \end{cvcolumns}
 
 
-\thispagestyle{consent}
+%\thispagestyle{consent}
 
 \end{document}
