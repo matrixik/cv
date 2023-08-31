@@ -6,7 +6,14 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[a4paper]{geometry}
-\geometry{verbose,tmargin=1.0cm,bmargin=1.0cm,lmargin=0.07\paperwidth,rmargin=0.07\paperwidth,footskip=0cm}
+\geometry{verbose,tmargin=1.0cm,bmargin=1.0cm,lmargin=0.06\paperwidth,rmargin=0.07\paperwidth,footskip=0cm}
+
+% Use vector font
+\usepackage{lmodern}
+
+% Change item list symbol
+\usepackage{enumitem}
+\setlist[itemize]{itemsep=1pt, label={--}}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -18,21 +25,21 @@
 \usepackage{setspace}
 \onehalfspacing
 \ifx\hypersetup\undefined
-  \AtBeginDocument{%
-    \hypersetup{unicode=true,
- bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=1,
- breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false,
- pdfauthor={Dobrosław Żybort},
- pdfkeywords={Dobrosław Żybort,Curriculum Vitae,Resume},
- pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false}
+	\AtBeginDocument{%
+    	\hypersetup{unicode=true,
+			bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=1,
+			breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false,
+			pdfauthor={Dobrosław Żybort},
+			pdfkeywords={Dobrosław Żybort,Curriculum Vitae,Resume},
+			pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false}
   }
 \else
-  \hypersetup{unicode=true,
- bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=1,
- breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false,
- pdfauthor={Dobrosław Żybort},
- pdfkeywords={Dobrosław Żybort,Curriculum Vitae,Resume},
- pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false}
+  	\hypersetup{unicode=true,
+		bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=1,
+		breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false,
+		pdfauthor={Dobrosław Żybort},
+		pdfkeywords={Dobrosław Żybort,Curriculum Vitae,Resume},
+		pdfpagelayout=OneColumn, pdfnewwindow=true, pdfstartview=XYZ, plainpages=false}
 \fi
 
 % moderncv themes
@@ -50,6 +57,8 @@
 %\setlength{\makecvtitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
+% \firstname{}
+% \familyname{}
 \firstname{Dobrosław}
 \familyname{Żybort}
 \title{Curriculum Vit\ae{}}
@@ -83,12 +92,12 @@
 % \renewcommand*{\titlefont}{\LARGE\mdseries\slshape}
 % \renewcommand*{\addressfont}{\small\mdseries\slshape}
 % \renewcommand*{\quotefont}{\large\slshape}
-% \renewcommand*{\sectionfont}{\Large\mdseries\upshape}
-% \renewcommand*{\subsectionfont}{\large\mdseries\upshape}
+\renewcommand*{\sectionfont}{\Large\mdseries\upshape}
+\renewcommand*{\subsectionfont}{\large\mdseries\upshape}
 % \renewcommand*{\hintfont}{}
 
-\renewcommand*{\sectionfont}{\fontsize{14}{16} \mdseries\upshape}
-\renewcommand*{\subsectionfont}{\fontsize{14}{16} \mdseries\upshape}
+% \renewcommand*{\sectionfont}{\fontsize{14}{16} \mdseries\upshape}
+% \renewcommand*{\subsectionfont}{\fontsize{14}{16} \mdseries\upshape}
 
 % Wygląd poziomej linii
 %\renewcommand*{\section}[1]{%
@@ -111,59 +120,108 @@
 
 \section{Professional experience}
 
-\cventry{\small2021-04 -- now}
+\cventry
+{\small2023-07 -- now}
 	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
 	{Senior Software Developer}
-	{
-	}
+	{\begin{itemize}
+		\item Quantum: \\
+			React, AWS Amplify, Gitlab CI, Bash
+	\end{itemize}}
 
-\cventry{\small2020-10 -- 2021-03}
-	{Career break}{}{}
-	{}
-	{Break needed for mental health.}
+\cventry
+{\small2023-03 -- 2023-06}
+	{Career break}{}{}{}{}
 
-\cventry{\small2020-03 -- 2020-09}
+\cventry
+{\small2022-07 -- 2023-02}
 	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
 	{Senior Software Developer}
-	{Blockchain R\&D, payment settlements: Integration of application backend
-	with Hyperledger Fabric. Working on TypeScript code parts and setting up whole integrated
-	backend developement environment (app backend + blockchain) with Docker, Docker Compose,
-	VS Code Remote Containers.
-	}
+	{\begin{itemize}
+		\item Blockchain R\&D, Decentralized identity: \\
+			 Go, Bash, Python, Hyperledger Aries Cloud Agent, Swagger, Truffle,
+			 Ganache, React Native, Bitbucket CI
+	\end{itemize}}
 
-\cventry{\small2019-03 -- 2020-02}
+\cventry
+{\small2022-02 -- 2022-06}
+	{Career break}{}{}{}{}
+
+\cventry
+{\small2021-04 -- 2022-01}
 	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
 	{Senior Software Developer}
-	{OpenStack logging and metrics monitoring, Monasca:
-	Core OpenStack Monasca reviewer (Python, from 2017-09).
-	FUJITSU Software ServerView Cloud Monitoring Manager:
-	Docker and Docker Compose: building and improving containers for all Monasca components
-	and other required components (Elasticsearch, Kibana, Kafka, Grafana, Logspout).
-	}
+	{\begin{itemize}
+		\item Blockchain R\&D, Digital Incubation: \\
+			Go, Swagger, Bitbucket CI
+		\item Blockchain R\&D, Digital Licensing Platform: \\
+			React, MUI, Bitbucket CI
+		\item Blockchain R\&D, Messaging: \\
+			React, Material-UI, Docker Compose, Bitbucket CI
+		\item Blockchain R\&D, Hyperledger Fabric Certificate Authority: \\
+			React, Material-UI (making FE for Fabric CA administration), Go,
+			Docker Compose, Bitbucket CI
+		\item Kids' Guide To Cancer: \\
+			Android, Flutter, Angular, Azure Pipelines
+	\end{itemize}}
 
-\cventry{\small2016-05 -- 2019-02}
+\cventry
+{\small2020-10 -- 2021-03}
+	{Career break}{}{}{}{}
+
+\cventry
+{\small2020-03 -- 2020-09}
+	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
+	{Senior Software Developer}
+	{\begin{itemize}
+		\item Blockchain R\&D, Payment settlements: \\
+			Integration of application back-end with Hyperledger Fabric.
+			TypeScript, setting up backend development environment (app backend
+			+ blockchain) Docker Compose, VS Code Remote Containers.
+	\end{itemize}}
+
+\cventry
+{\small2019-03 -- 2020-02}
+	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
+	{Senior Software Developer}
+	{\begin{itemize}
+		\item  OpenStack logging and metrics monitoring, Monasca: \\
+			Core OpenStack Monasca reviewer (Python, from 2017-09).
+		\item  FUJITSU Software ServerView Cloud Monitoring Manager: \\
+			Docker and Docker Compose: building and improving containers for
+			all Monasca components and other required components
+			(Elasticsearch, Kibana, Kafka, Grafana, Logspout).
+	\end{itemize}}
+
+\cventry
+{\small2016-05 -- 2019-02}
 	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
 	{Development Engineer}
-	{OpenStack logging and metrics monitoring, Monasca:
-	Core OpenStack Monasca reviewer (Python, from 2017-09).
-	FUJITSU Software ServerView Cloud Monitoring Manager:
-	Docker and Docker Compose: building and improving containers for all Monasca components.
-	Development of automating Ansible installer with clustering, roles for MariaDB Galera cluster
-	and HAProxy on RedHat Linux. Crowbar (automated installer) integration for Suse OpenStack
-	Cloud 7.
-	}
+	{\begin{itemize}
+		\item OpenStack logging and metrics monitoring, Monasca: \\
+			Core OpenStack Monasca reviewer (Python, from 2017-09).
+		\item FUJITSU Software ServerView Cloud Monitoring Manager: \\
+			Docker and Docker Compose: building and improving containers for
+			all Monasca components. Development of automating Ansible installer
+			with clustering, roles for MariaDB Galera cluster and HAProxy
+			on RedHat Linux. Crowbar (automated installer) integration for
+			Suse OpenStack Cloud 7.
+	\end{itemize}}
 
-\cventry{\small2015-10 -- 2016-03}
+\cventry
+{\small2015-10 -- 2016-03}
 	{Ericpol Sp. z o.o.}{}{}
 	{Software Developer}
 	{Trouble Reports Work Group (C++)}
 
-\cventry{\small2015-01 -- 2015-10}
+\cventry
+{\small2015-01 -- 2015-10}
 	{Ericpol Sp. z o.o.}{}{}
 	{Scrum Master / Software Developer}
 	{Flow team, removing flow impediments, Trouble Reports Work Group (C++)}
 
-\cventry{\small2013-07 -- 2014-12}
+\cventry
+{\small2013-07 -- 2014-12}
 	{Ericpol Sp. z o.o.}{}{}
 	{Scrum Master / Junior Software Developer}
 	{Flow team, removing flow impediments (C++)}
@@ -173,39 +231,50 @@
 
 \section{Private projects}
 
-\cventry{\small2012-12 -- now}
+\cventry
+{\small2012-12 -- now}
 	{slug, oauth2 and other}{open source}{}
 	{\url{https://github.com/gosimple}}
-	{Libraries written in Go language}
+	{Libraries written in Go language, Go, Github Actions}
 
-\cventry{\small2012-07 -- 2015-11}
+\cventry
+{\small2012-07 -- 2015-11}
 	{Wordpress bot}{private project}{}
 	{}
 	{Automatic web scraper and Wordpress poster,
-		administration of 14 blogs and 4 VPSes, tech: Go, Python, MySQL, SQLite, Amazon S3}
+		administration of 14 blogs and 4 VPSes, tech:
+		Go, Python, MySQL, SQLite, Amazon S3}
 
 
 \vspace{-0.3cm}
 
 \section{Education}
 
-\cventry{\small2005 -- 2013}{Faculty of Electrical, Electronic, Computer and Control Engineering}{Lodz University of Technology}{Łódź}{Poland}{}
+\cventry
+{\small2005 -- 2013}
+	{Faculty of Electrical, Electronic, Computer and Control Engineering}
+	{Lodz University of Technology}{Łódź}{Poland}{}
+
 \vspace{-0.2cm}
 
-\cvitem{Specialty}{\textbf{Databases Systems and Expert Systems} - thesis not defended}
+\cvitem{Specialty}{\textbf{Database Systems and Expert Systems}}
 
 
 \vspace{-0.3cm}
 
 \section{Skills}
 
+
+\cvitemwithcomment
+	{Polish}
+	{Native language}{}
 \cvitemwithcomment
 	{English}
 	{Advanced}{}
 
 \cvitemwithcomment
-	{\small{Languages}}
-	{Python, Go}{}
+	{\small{Prog. languages}}
+	{Python, Go, JavaScript}{}
 
 \cvitemwithcomment
 	{\small{Databases}}
@@ -213,7 +282,7 @@
 
 \cvitemwithcomment
 	{\small{Ops}}
-	{Docker, Docker Compose}{}
+	{Docker Compose, Github Actions, Azure Pipelines, Bitbucket CI}{}
 
 \cvitemwithcomment
 	{\small{Other}}
@@ -224,12 +293,14 @@
 
 \begin{cvcolumns}
 	\cvcolumn[0.7]{Abilities and certificates}{
+		\vspace{-0.6cm}
 		\begin{itemize}
 			\item Managing a team of 8
 			\item Direct cooperation with an abroad client
 			\item Professional Scrum Master I (PSM I)
 		\end{itemize}}
 	\cvcolumn{Interests}{
+		\vspace{-0.6cm}
 		\begin{itemize}
 			\item Photography
 			\item Human body
