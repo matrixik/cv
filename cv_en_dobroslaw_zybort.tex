@@ -57,19 +57,24 @@
 %\setlength{\makecvtitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-% \firstname{}
-% \familyname{}
-\firstname{Dobrosław}
-\familyname{Żybort}
+\ifdefined\isanonymous
+	\firstname{}
+	\familyname{}
+\else
+	\firstname{Dobrosław}
+	\familyname{Żybort}
+	% \address{}{}{Poland}
+	% \mobile{+48 123 456 789}
+	% \phone{+2~(345)~678~901}
+	% \fax{+3~(456)~789~012}
+	\email{dobroslaw.zybort@gmail.com}
+	%\homepage{github.com/matrixik}
+	\social[linkedin]{dobroslaw-zybort}
+	\social[github]{matrixik}
+\fi
+
 \title{Curriculum Vit\ae{}}
-% \address{}{}{Poland}
-% \mobile{+48 123 456 789}
-% \phone{+2~(345)~678~901}
-% \fax{+3~(456)~789~012}
-\email{dobroslaw.zybort@gmail.com}
-%\homepage{github.com/matrixik}
-\social[linkedin]{dobroslaw-zybort}
-\social[github]{matrixik}
+
 % \extrainfo{additional information}
 % \photo[64pt][0.4pt]{picture}               % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 % \quote{Some quote}
@@ -121,12 +126,21 @@
 \section{Professional experience}
 
 \cventry
-{\small2023-07 -- now}
+{\small2024-04 -- now}
 	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
 	{Senior Software Developer}
 	{\begin{itemize}
-		\item Quantum: \\
-			React, AWS Amplify, Gitlab CI, Bash
+		\item Drug Discovery: \\
+			Python
+	\end{itemize}}
+
+\cventry
+{\small2023-07 -- 2024-03}
+	{Fujitsu Technology Solutions Sp. z o.o.}{}{}
+	{Senior Software Developer}
+	{\begin{itemize}
+		\item Quantum Cloud Platform: \\
+			React, AWS Amplify, Gitlab CI, Bash, Python
 	\end{itemize}}
 
 \cventry
@@ -274,7 +288,7 @@
 
 \cvitemwithcomment
 	{\small{Prog. languages}}
-	{Python, Go, JavaScript}{}
+	{Python, Go, JavaScript, TypeScript}{}
 
 \cvitemwithcomment
 	{\small{Databases}}
